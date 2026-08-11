@@ -4,7 +4,7 @@
 
 title: Mohammad Ghali # the website title (if blank, full name will be used instead)
 first_name: Mohammad
-middle_name: E.
+middle_name:
 last_name: Ghali
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -251,6 +251,12 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  - _pages/blog.md
+  - _posts/
+  - _projects/
+  - _teachings/
+  - _news/
+
 keep_files:
   - CNAME
   - .nojekyll
